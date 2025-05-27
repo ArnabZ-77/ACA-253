@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-Page Arnab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <nav>
+            <ul class="ul">
+                <li class="list">Home</li>
+                <li class="list">Address</li>
+                <li class="list">Contact</li>
+                <button id="theme-toggle" class="theme">Toggle Theme</button>
+            </ul>
+        </nav>
+        <div class="pro">
+            <img class="pic" src="profilepic.jpg" alt="profilepic">
+        </div>
+    </main>
+    <div class="cen">
+        <h1>
+            Arnab Patra
+            <img class="logo" src="logo.jpg" alt="logo">
+        </h1>
+        <p>IIT Kanpur'28</p>
+    </div>
+    <div class="container">
+        <div class="item one">
+            <div>
+                <i class="fas fa-phone"></i>
+                <a href="tel:919477600604">91-9477600604</a>
+            </div>
+            <div class="mail">
+                <i class=" fas fab fa-google"></i>
+                <a href="malto:arnabpatra980@gmail.com">arnabpatra980@gmail.com</a>
+            </div>
+            <div class="sec">
+                <button class="chat">Chat</button>
+            </div>
+        </div>
+        <div class="item intro">
+            Hi, I'm Arnab, a sophomore at IIT Kanpur pursuing my undergraduate studies. I'm passionate
+            about technology, problem-solving, and hands-on projects. I'm always eager to learn, collaborate, and take
+            on new challenges.
+        </div>
+        <div class="item hobby">
+            My hobbies are mostly playing football,travelling around new places,making friends, having fun,aeromodelling
+            etc.
+        </div>
+    </div>
+    <div class="con">
+        <div class="box">
+            <h1 class="header">My Projects</h1>
+            <h2>
+                <li class="project">ACA-253</li>
+                <li class="project">aeromodelling B-2 Bomber</li>
+                <li class="project">Hall 12 website</li>
+            </h2>
+        </div>
+        <div class="box">
+            <button onclick="revealText()" class="skills">skills</button>
+            <div id="hidden-text">
+                <textarea id="skills-textarea">
+                    1.DSA
+                    2.c and python programming
+                    3.wev dev
+                    4.aeromodelling
+                    5.football
+                </textarea>
+                <button onclick="saveSkills()" class="save-btn">Save</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
